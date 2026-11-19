@@ -1,0 +1,53 @@
+@import url("https://cdn.jsdelivr.net/gh/nivoro/UMBER-v1.2@main/umber-main.css");
+@import url("https://cdn.jsdelivr.net/gh/nivoro/UMBER-v1.2@main/umber-bd.css");
+
+:root {
+    --main-color: #c68552;
+    --hover-color: #995f34;
+    --success-color: #6ea876;
+    --danger-color: #b84237;
+    --url-color: #f0c299;
+    --online-color: #6ea876;
+    --idle-color: #e0a34c;
+    --dnd-color: #b84237;
+    --streaming-color: #8c5c9c;
+    --offline-color: #7d6756;
+    --background-shading-percent: 100%;
+    --background-image: url("https://images.guns.lol/e413f105772fe92bb01b5cd326774dba27ee5c96/cBy1na.png");
+    --background-position: center;
+    --background-size: cover;
+    --home-icon: url("https://images.guns.lol/e413f105772fe92bb01b5cd326774dba27ee5c96/XjTT7v.jpg");
+    --home-size: cover;
+    --main-font: 'gg sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --code-font: Consolas, 'gg mono', Menlo, Courier, monospace;
+}
+
+:is(.theme-dark, .theme-light .theme-dark) {
+    --background-shading: rgba(18, 9, 5, 0.52);
+    --card-shading: rgba(24, 13, 7, 0.42);
+    --popout-shading: rgba(20, 10, 6, 0.88);
+    --modal-shading: rgba(18, 9, 5, 0.84);
+    --input-shading: rgba(34, 18, 10, 0.56);
+    --normal-text: #f3e3d3;
+    --muted-text: #b8987e;
+}
+
+:is(.theme-darker, .theme-light .theme-darker) {
+    --background-shading: rgba(15, 7, 4, 0.64);
+    --card-shading: rgba(22, 11, 6, 0.48);
+    --popout-shading: rgba(18, 9, 5, 0.9);
+    --modal-shading: rgba(16, 8, 4, 0.86);
+    --input-shading: rgba(30, 16, 9, 0.62);
+    --normal-text: #f3e3d3;
+    --muted-text: #b8987e;
+}
+
+:is(.theme-midnight, .theme-light .theme-midnight) {
+    --background-shading: rgba(11, 5, 3, 0.74);
+    --card-shading: rgba(18, 9, 5, 0.54);
+    --popout-shading: rgba(14, 7, 4, 0.92);
+    --modal-shading: rgba(12, 6, 3, 0.88);
+    --input-shading: rgba(26, 14, 8, 0.68);
+    --normal-text: #f3e3d3;
+    --muted-text: #b8987e;
+}
